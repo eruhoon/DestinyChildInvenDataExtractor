@@ -1,0 +1,29 @@
+{
+  "name": "destinychild-inven-extractor",
+  "version": "1.0.0",
+  "description": "destinychild-inven-extractor",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eruhoon/DestinyChildInvenDataExtractor.git"
+  },
+  "keywords": [
+    "destinychild"
+  ],
+  "author": "eruhoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eruhoon/DestinyChildInvenDataExtractor/issues"
+  },
+  "homepage": "https://github.com/eruhoon/DestinyChildInvenDataExtractor#readme"
+}
