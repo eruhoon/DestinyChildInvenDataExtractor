@@ -6,13 +6,16 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "sync-request": "^4.0.1"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "node node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
