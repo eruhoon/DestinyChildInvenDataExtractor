@@ -7,10 +7,6 @@ describe('child_extractor.js Test', function() {
 	
 	describe('#getChildInfoSync()', function() {
 		
-		it('should return -1 when the value is not present', function() {
-			assert.equal(-1, [1,2,3].indexOf(4));
-		});
-
 		it('should return specific format', function() {
 			var result = childExtractor.getChild('디나시');
 			
@@ -21,6 +17,11 @@ describe('child_extractor.js Test', function() {
 				class: '방어형'
 			});
 
+		});
+
+		it('should return null at wrong input', function() {
+			var result = childExtractor.getChild('뒤틀린 다나');
+			assert.deepStrictEqual(result, null);
 		});
 
 	});
