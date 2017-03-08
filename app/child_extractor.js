@@ -29,7 +29,7 @@ let getChildrenInfoFromCache = () => {
 let createChildrenInfo = () => {
 	
 	let URL = 'http://dchild.inven.co.kr/dataninfo/child/';
-	let CHILD_URL = 'http://destinychild.inven.co.kr/dataninfo/child/detail.php?code='
+	let CHILD_URL = 'http://destinychild.inven.co.kr/dataninfo/child/detail.php?code=';
 	
 	let allResponse = syncRequest('GET', URL);
 	let allBody = allResponse.getBody('utf8');
